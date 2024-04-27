@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+
+# Compiled output
+/build/
+/dist/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous
+.DS_Store
