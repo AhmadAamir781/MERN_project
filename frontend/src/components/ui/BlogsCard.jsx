@@ -1,6 +1,7 @@
 import React from "react";
 
 const BlogsCard = ({ blog }) => {
+ 
   return (
     <>
       <div className="blog">
@@ -11,6 +12,7 @@ const BlogsCard = ({ blog }) => {
           <p>{blog.description}</p>
         </div>
       </div>
+      
     </>
   );
 };
