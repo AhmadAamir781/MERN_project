@@ -13,9 +13,9 @@ const Navbar = () => {
           <nav className="navbar">
             <ul>
               <li>
-                <Link to="/">Home</Link>
-                <Link to="/blogs">Blogs</Link>
-                <Link to="/create-blog">Create blog</Link>
+                <Link to="/home">Home</Link>
+                <Link to="#">Blogs</Link>
+                <Link to="#">Create blog</Link>
               </li>
             </ul>
           </nav>
@@ -24,17 +24,6 @@ const Navbar = () => {
                 <Button variant="contained">Signup</Button>
               </Link>
           </div>
-        </div>
-        <div className="lower-nav">
-          <nav className="navbar">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-                <Link to="/blogs">Blogs</Link>
-                <Link to="/create-blog">Create blog</Link>
-              </li>
-            </ul>
-          </nav>
         </div>
       </header>
     </>

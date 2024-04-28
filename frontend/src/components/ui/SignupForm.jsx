@@ -7,7 +7,7 @@ const SignupForm = () => {
     username: "",
     email: "",
     password: "",
-    profilePic: null, // Added for file input
+    profilePic: null, 
   });
 
   const handleInputChange = (e) => {
@@ -22,11 +22,9 @@ const SignupForm = () => {
 
   const handleSubmitForm = (e) => {
     e.preventDefault();
-    // Handle form submission here
     console.log("Form submitted:", formData);
   };
-// 0030
-// MEZNPKKA
+  
   return (
     <>
       <form

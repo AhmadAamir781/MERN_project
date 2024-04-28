@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
@@ -36,7 +35,7 @@ export default function ModalBlog(props) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-image" variant="h6" component="h2">
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="" style={{width:"250px", height:"150px"}}/>
            
           </Typography>
           <Typography id="modal-modal-title" variant="h6" component="h2">
