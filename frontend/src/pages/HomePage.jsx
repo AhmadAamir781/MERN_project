@@ -1,5 +1,3 @@
-// HomePage.js
-
 import React from "react";
 import ArticlesCard from "../components/ui/ArticlesCard";
 import Button from "@mui/material/Button";
